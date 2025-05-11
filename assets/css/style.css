@@ -1,0 +1,180 @@
+/* Reset basic styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  padding: 20px;
+}
+
+/* Container styles */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styles */
+h1 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Button styles */
+.button {
+  background-color: #7030A0;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.button:hover {
+  background-color: #58278a;
+}
+
+.button-add {
+  margin-bottom: 20px;
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #7030A0;
+  color: white;
+}
+
+td {
+  background-color: #f9f9f9;
+}
+
+td a {
+  color: #7030A0;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+td a:hover {
+  text-decoration: underline;
+}
+
+/* Form styles */
+form {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+form input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+form button {
+  background-color: #7030A0;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1rem;
+}
+
+form button:hover {
+  background-color: #58278a;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .container {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  table {
+    font-size: 14px;
+  }
+
+  th, td {
+    padding: 10px;
+  }
+
+  form {
+    padding: 20px;
+  }
+
+  form input, form button {
+    padding: 10px;
+  }
+
+  .button {
+    font-size: 1rem;
+    padding: 8px 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  table {
+    font-size: 13px;
+  }
+
+  th, td {
+    padding: 8px;
+  }
+
+  td a {
+    font-size: 13px;
+  }
+
+  .button {
+    font-size: 1rem;
+    padding: 8px 16px;
+  }
+
+  form input, form button {
+    font-size: 1rem;
+    padding: 8px 16px;
+  }
+}
+
