@@ -11,10 +11,22 @@
   
 <form method="POST" action="?controller=usuario&action=update&id=<?= $data['idusuario'] ?>">
 
-    <input type="text" name="nombre" value="<?= $data['nombre'] ?>" required><br>
-    <input type="text" name="segundo_nombre" value="<?= $data['segundo_nombre'] ?>" required><br>
-    <input type="text" name="apellido" value="<?= $data['apellido'] ?>" required><br>
-    <input type="text" name="usuario" value="<?= $data['usuario'] ?>" required><br>
+    <div>
+      <label for="nombre">Nombre</label>
+      <input type="text" name="nombre" value="<?= $data['nombre'] ?>" required><br>
+    </div>
+    <div>
+      <label for="segundo_nombre">Segundo Nombre</label>
+      <input type="text" name="segundo_nombre" value="<?= $data['segundo_nombre'] ?>" required><br>
+    <div>
+      <label for="apellido">Apellido</label>
+      <input type="text" name="apellido" value="<?= $data['apellido'] ?>" required><br>
+    </div>
+    <div>
+      <label for="Usuario">Usuario</label>
+      <input type="text" name="usuario" value="<?= $data['usuario'] ?>" required><br>
+    </div>
+  
     <button type="submit">Actualizar</button>
     
 </form>

@@ -31,7 +31,7 @@
         <td><?= $u['clave'] ?></td>
         <td>
           <a href="?action=show&id=<?= $u['idusuario'] ?>">Ver</a> |
-          <a href="?action=edit&id=<?= $u['idusuario'] ?>">Editar</a>
+          <a href="?action=edit&id=<?= $u['idusuario'] ?>">Editar</a>|
           <a href="?controller=usuario&action=delete&id=<?= $u['idusuario'] ?>"  onclick="return confirm('¿Estás seguro de eliminar este usuario?');">Eliminar</a>
            
             
