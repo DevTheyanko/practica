@@ -1,5 +1,5 @@
 <?php
-// C:\xampp\htdocs\practica\assets\app\Controller\UsuarioController.php
+
 namespace App\Controller;
 
 use App\Model\Usuarios;
