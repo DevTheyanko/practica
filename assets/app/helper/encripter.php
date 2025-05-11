@@ -1,5 +1,5 @@
 <?php
-// C:\xampp\htdocs\practica\assets\app\helper\encripter.php
+
 namespace App\helper;
 
 class Encripter {
