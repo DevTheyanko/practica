@@ -1,5 +1,5 @@
 <?php
-//C:\xampp\htdocs\practica\assets\app\interface\IUsuarios.php
+
 namespace App\interface;
 
 interface IUsuarios {
