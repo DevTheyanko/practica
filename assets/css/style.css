@@ -1,11 +1,11 @@
-/* Reset basic styles */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Body styles */
+
 body {
   font-family: 'Poppins', sans-serif;
   background-color: #f4f4f9;
@@ -13,7 +13,7 @@ body {
   padding: 20px;
 }
 
-/* Container styles */
+
 .container {
   width: 100%;
   max-width: 1200px;
@@ -24,7 +24,7 @@ body {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Heading styles */
+
 h1 {
   font-size: 2rem;
   font-weight: 500;
@@ -32,7 +32,7 @@ h1 {
   text-align: center;
 }
 
-/* Button styles */
+
 .button {
   background-color: #7030A0;
   color: white;
@@ -118,7 +118,7 @@ form button:hover {
   background-color: #58278a;
 }
 
-/* Responsive Styles */
+
 @media (max-width: 768px) {
   .container {
     padding: 15px;
