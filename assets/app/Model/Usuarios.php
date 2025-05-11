@@ -1,5 +1,5 @@
 <?php
-// C:\xampp\htdocs\practica\assets\app\Model\Usuarios.php
+
 namespace App\Model;
 
 use App\Config\db_connect\connect;
