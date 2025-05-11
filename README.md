@@ -6,12 +6,14 @@ Aquí tienes los pasos fáciles y claros para desplegar un proyecto PHP 🎉🚀
 
 🟢 **1. Descargar el repositorio**  
 Descarga el archivo ZIP del repositorio y guárdalo en tu computadora.  
+
+
+🟢 **2. Extraer el repositorio**  
+Extrae el contenido del ZIP.
+
 Ejemplos:  
 - practica.zip  
 - practica-main.zip  
-
-🟢 **2. Extraer el repositorio**  
-Extrae el contenido del ZIP en una carpeta temporal.
 
 🟢 **3. Mover o copiar los archivos**  
 Copia o mueve todos los archivos extraídos a la carpeta de tu servidor local:  
