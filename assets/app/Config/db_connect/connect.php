@@ -1,5 +1,5 @@
 <?php
-// C:\xampp\htdocs\practica\assets\app\Config\db_connect\connect.php
+
 namespace App\Config\db_connect;
 
 use PDO;
