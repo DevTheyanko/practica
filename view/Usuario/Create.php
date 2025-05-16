@@ -20,6 +20,7 @@
     <input type="text" name="usuario" placeholder="Usuario" required>
     <input type="password" name="clave" placeholder="Clave" required>
     <button type="submit">Guardar</button>
+    <a  class="button button-add" href="./">Volver</a>
   </form>
 
 </body>
